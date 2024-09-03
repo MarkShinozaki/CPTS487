@@ -205,9 +205,123 @@ The provided solution would typically include:
 
 
 ---
+
 ## [Assignment 5](https://github.com/MarkShinozaki/CPTS487-SoftwareDesign-Architecture/tree/Assignments/Assignment%205)
+
+
+This assignment is divided into two main parts: implementing the Command Design Pattern and discussing a Quality Attribute (QA) in the context of a software project. Below is a detailed explanation of each part of the assignment.
+
+### Question 1: Implementing the Command Design Pattern (10 points)
+
+#### Part A: Completing the Classes
+
+- **Task**: You are provided with partial code that implements the Command Design Pattern. The key components include:
+
+    - Command Interface: Defines a single method `execute()` which all command classes must implement.
+    - Invoker Class (`Switch`): Stores and executes commands.
+    - Receiver Class (`Light`): Contains the actual operations (turnOn and turnOff) that can be triggered by commands.
+
+- Concrete Command Classes:
+    - `FlipUpCommand`: Command to turn the light on.
+    - `FlipDownCommand`: Command to turn the light off.
+
+- Objective: You need to complete the `FlipUpCommand` and `FlipDownCommand` classes by implementing their `execute()` methods. The `FlipUpCommand` should call `turnOn()` on the `Light` instance, and the `FlipDownCommand` should call `turnOff()`.
+
+#### Part B: Writing a Test Program
+
+- **Task**: Write a test program (or main function) that:
+
+    - Creates a `Light` object.
+    - Uses `FlipUpCommand` to turn the light on.
+    - Uses `FlipDownCommand` to turn the light off.
+    - Executes these commands using the Switch class.
+      
+- **Objective**: Demonstrate how the Command Pattern can be used to decouple the request for an action (turning the light on/off) from the actual implementation of the action.
+
+### Question 2: Quality Attribute (QA) in a Software Project (20 points)
+
+#### Part A: Project Description
+
+- **Task**: Briefly describe the largest software project you have been involved with. This could be from a senior design project, an internship, or a significant course project.
+
+#### Part B: Selecting and Explaining a Quality Attribute
+
+- **Task**: Choose one Quality Attribute (Availability, Performance, Security, Testability) from the lesson videos that is most relevant to your project. Explain why this QA is important for the project.
+
+#### Part C: Tactics to Address the Quality Attribute
+
+- **Task**: Refer to the corresponding chapter in the [BASS] textbook that covers the tactics for achieving the QA you selected. Write about what you or your team did in the project that aligns with one of these tactics.
+
+    - **Example**: If you choose Performance, you might discuss tactics like "Control Resource Demand" or "Manage Resources" and explain specific measures your team took to implement these tactics in your project.
+      
+- **Objective**: The goal is to connect theoretical concepts from the course to real-world applications, demonstrating your understanding of how quality attributes can be practically addressed in software development.
+
+#### Summary:
+- **Question 1** focuses on the practical implementation of the Command Design Pattern, reinforcing your understanding of how to structure code in a way that separates concerns and promotes flexibility.
+
+- **Question 2** requires you to reflect on a real project experience, analyzing how quality attributes were or could be managed, thus bridging the gap between theory and practice.
 
 
 
 ---
 ## [Assignment 6](https://github.com/MarkShinozaki/CPTS487-SoftwareDesign-Architecture/tree/Assignments/Assignment%206)
+
+Assignment 6 continues the exploration of design patterns using the Plants vs. Zombies game as a context. The focus is on using the Decorator and Observer patterns, alongside a creational pattern (Factory or Builder) to design a flexible system for simulating the game. Below is a breakdown of the tasks involved in this assignment:
+
+### Task Breakdown:
+
+1. Creational Pattern and Decorator Pattern Implementation (10 points):
+
+- **Task**: You are required to use a creational pattern (Factory/Abstract Factory/Builder) to create four types of zombies: RegularZombie, ConeZombie, BucketZombie, and ScreenDoorZombie. Then, use the Decorator Pattern to model the zombie-related classes.
+
+- **Deliverable**:
+    - A class diagram that connects the creational pattern with the Decorator pattern, showing necessary attributes and operations, such as takeDamage(int d), die(), and possibly a bool isMetal attribute.
+    - The diagram should clearly match the components of the patterns to your classes (e.g., which class acts as the decorator, the concrete decorator, etc.).
+      
+2. Executable Demo Program (80 points):
+
+    - **Part A (10 points)**: The program should start by creating zombies using the chosen creational pattern, similar to Assignment 4, but now organized following the Decorator pattern.
+      
+    - **Part B (30 points)**: Implement the "Demo gameplay" feature where users can choose from three plants (Peashooter, Watermelon, Magnet-shroom) to attack zombies. The attacks should be simulated using command-line output, updating the array of zombies and their health values after each attack.
+
+    - **Part C (10 points)**: Integrate the provided `GameObjectManager` (GOM) and `GameEventManager` (GEM) classes into your program. These manage the game objects and handle attack events (collisions) between plants and zombies.
+
+    - **Part D (30 points)**: Implement the Observer Pattern to ensure that the `GameObjectManager` updates the list of zombies when a zombie dies. You need to correctly identify the observer and observable classes and implement the pattern according to the behavior sequence described in the lecture.
+
+3. Comparison of Composite and Decorator Patterns (10 points):
+
+    - **Task**: Compare the Composite and Decorator patterns, discussing which one is more suitable for this assignment. You need to provide reasoning based on your design and the requirements of the game simulation.
+
+    - **Deliverable**: A brief written explanation comparing the two patterns and justifying your choice.
+
+
+#### Key Concepts Covered:
+- **Decorator Pattern**: Used to add responsibilities to objects dynamically, particularly useful in modeling the zombies with different accessories.
+
+- **Observer Pattern**: Implements a subscription mechanism to allow multiple objects to listen and react to events, crucial for updating the game state when a zombie dies.
+
+- **Factory/Builder Pattern**: Provides a way to create complex objects (zombies) without exposing the instantiation logic, making the code more modular and easier to maintain.
+
+#### Summary:
+
+Assignment 6 is designed to test your ability to apply multiple design patterns in a cohesive manner to solve a problem. You’ll need to demonstrate a deep understanding of the Decorator and Observer patterns, along with a chosen creational pattern, by creating a functioning demo game and discussing the patterns' effectiveness. The tasks are both practical (writing code) and theoretical (comparing patterns), making this a comprehensive exercise in software design.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
