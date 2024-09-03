@@ -111,10 +111,98 @@ This assignment builds upon the concepts introduced in Assignment 1 and focuses 
 ---
 ## [Assignment 3](https://github.com/MarkShinozaki/CPTS487-SoftwareDesign-Architecture/tree/Assignments/Assignment%203)
 
+This assignment focuses on applying design patterns, specifically the Factory Method and Abstract Factory patterns, to model the creation of different types of zombies in a game. The task involves deciding on the appropriate pattern to use, creating a class diagram to represent the design, and considering alternative class structures for representing different zombie types.
 
+### Detailed Breakdown of Each Question:
+
+1. **Choosing Between Factory and Abstract Factory Pattern (5 points)**:
+
+    - **Task**: You need to decide whether to use the Factory Method or the Abstract Factory pattern to create the three types of zombies: RegularZombie, ConeZombie, and BucketZombie. You must provide a brief justification for your choice.
+
+    - **Objective**: This question tests your understanding of when to use each pattern. The Factory Method is typically used when there is a single product with multiple variations, while the Abstract Factory is more suitable when dealing with multiple related products.
+
+2. **Class Diagram (5 points)**:
+
+    - **Task**: Draw a class diagram that models the creation of the three zombie types using the pattern you chose in the first question. The structure should be based on the diagram from the "Analysis Case Study 2" slides.
+
+    - **Objective**: This question requires you to apply the chosen pattern to create a proper class hierarchy and relationships between classes. The diagram should include all necessary classes like Product, ConcreteProduct, and Factory, but you do not need to include specific attributes or methods.
+
+3. **Correspondence and Creation Process (5 points)**:
+
+    - **Task**: Map your classes to the corresponding roles in the Factory/Abstract Factory structure (e.g., Zombie as Product, ConeZombie as ConcreteProduct). Describe how the pattern facilitates the creation of the different zombie types.
+
+    - **Objective**: This question ensures that you understand the roles of different classes within the design pattern and how they interact to create specific instances of zombies.
+
+4. **Alternative Class Structure (5 points)**:
+
+    - **Task**: Consider the current inheritance structure where ConeZombie and BucketZombie inherit from RegularZombie. Given that these zombies have different health values (e.g., RegularZombie has 50, ConeZombie has 75, BucketZombie has 150), think of an alternative class structure that could represent these zombies. You are encouraged to think creatively and consider other patterns or approaches.
+
+    - **Objective**: This open-ended question allows you to explore other design possibilities, such as using composition over inheritance or applying another pattern like the Strategy or Decorator pattern. You are also asked to list any resources or research you conducted while considering alternative solutions.
+
+### Summary of the Solution:
+
+The solution provided gives detailed answers to each question:
+
+- **Question 1**: Justifies the use of the Factory Method Pattern, which is sufficient for creating the different zombie types without the added complexity that might necessitate an Abstract Factory.
+
+- **Question 2**: Presents a class diagram that models the Factory Method pattern, showing how different zombies are created using dedicated factories.
+
+- **Question 3**: Maps each class in the diagram to the roles in the Factory Method pattern and explains the creation process, emphasizing the role of factories in producing specific zombies.
+
+- **Question 4**: Suggests alternative class structures for representing the different zombies, considering their varying health attributes, and explores potential design patterns that could be applied.
 
 ---
 ## [Assignment 4](https://github.com/MarkShinozaki/CPTS487-SoftwareDesign-Architecture/tree/Assignments/Assignment%204)
+
+This assignment is centered around the popular game Plants vs. Zombies, but with a focus on applying design patterns to model the behavior and interaction of different zombies and their accessories. The key design patterns involved are the Factory/Abstract Factory and Composite patterns. The assignment requires you to design a class structure, implement a simple demo game, and explore how changes in the game's mechanics impact your design.
+
+### Detailed Breakdown of Each Task:
+
+1. **Creational Pattern and Composite Pattern Implementation (10 points)**:
+
+    - **Task**: Choose a creational design pattern (Factory, Abstract Factory, Builder) to create the different types of zombies: RegularZombie, ConeZombie, BucketZombie, and ScreenDoorZombie. Additionally, use the Composite pattern to model the zombie-related classes, particularly how zombies with accessories degrade into regular zombies when their accessories are destroyed.
+
+    - **Deliverable**: A class diagram created using UML that shows how the creational and composite patterns are applied, including necessary attributes and operations like takeDamage(int d) and die().
+
+2. **Class Diagram Match-Ups (10 points)**:
+
+    - **Task**: Match the classes in your diagram with the roles in the pattern structures (e.g., ZombieFactory -> Creator, Zombie -> AbstractProduct). Ensure that the relationships between classes and their attributes/operations align with the patterns.
+
+    - **Deliverable**: A list of these match-ups alongside your class diagram.
+
+3. **Executable Demo Program (40 points)**:
+
+    - **Task**: Write a simple demo game that simulates a Peashooter attacking an array of zombies. The game should allow the user to create different zombies, store them in an array, and simulate the attack process where zombies are damaged, accessories are destroyed, and zombies change types accordingly.
+
+    - **Deliverable**: The program should run in a command-line interface, with options to create zombies, display their current state, and simulate the attack process. The game should automatically continue until all zombies are defeated.
+
+4. **Impact of Changing Peashooter Damage (20 points)**:
+
+    - **Task**: Consider what would change if the damage of the Peashooter is increased from 25 to 40. Implement a feature that allows the user to select a different damage value before the game begins. Additionally, incorporate "leftover damage" logic, where damage exceeding the accessory’s health is transferred to the zombie’s health.
+
+    - **Deliverable**: An updated version of your program that includes these changes, along with a short explanation of how this impacts your design and implementation.
+
+5. **Introducing a New Plant: Watermelon (20 points)**:
+
+    - **Task**: Introduce a new plant, the Watermelon, which attacks differently from the Peashooter, particularly in how it affects ScreenDoorZombie. Explain how this new feature impacts your program design and whether the Composite pattern still works. You are not required to implement the change but should provide a detailed explanation.
+
+    - **Deliverable**: A short written explanation discussing the necessary modifications to the design and how the new feature interacts with existing patterns.
+
+### Summary of the Solution:
+
+The provided solution would typically include:
+
+- A UML diagram showing how the Factory and Composite patterns are applied to model the different types of zombies.
+  
+- A match-up of the classes in the diagram with the roles defined by the design patterns.
+  
+- An executable command-line program that simulates the game’s mechanics, including creating zombies, simulating attacks, and handling accessory degradation.
+  
+- An explanation of how changes in Peashooter damage affect the game logic, along with a modified program that accommodates user-selected damage values.
+  
+- A discussion on how introducing a Watermelon plant would impact the current design and any necessary adjustments.
+
+
 
 ---
 ## [Assignment 5](https://github.com/MarkShinozaki/CPTS487-SoftwareDesign-Architecture/tree/Assignments/Assignment%205)
