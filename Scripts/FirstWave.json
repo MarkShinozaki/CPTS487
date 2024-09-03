@@ -1,0 +1,145 @@
+{
+    "enemies": [
+        {
+            "type": "EnemyA",
+            "startPos": [ 50, 50 ],
+            "startVel": [ -5, 2 ],
+            "movements": [
+                {
+                    "type": "moveUp",
+                    "duration": 8.0
+                },
+                {
+                    "type": "moveDown",
+                    "duration": 8.0
+                },
+                {
+                    "type": "moveLeft",
+                    "duration": 5.0
+                },
+                {
+                    "type": "moveUp",
+                    "duration": 5.0
+                }
+
+            ],
+            "movementRepetitions": 10
+        },
+        {
+            "type": "EnemyA",
+            "startPos": [ 100, 100 ],
+            "startVel": [ -1, 1 ],
+            "movements": [
+                {
+                    "type": "moveRight",
+                    "duration": 6.0
+                },
+                {
+                    "type": "moveLeft",
+                    "duration": 6.0
+                }
+            ],
+            "movementRepetitions": 10
+        },
+        {
+            "type": "EnemyA",
+            "startPos": [ 200, 200 ],
+            "startVel": [ -1, 1 ],
+            "movements": [
+                {
+                    "type": "moveRight",
+                    "duration": 6.0
+                },
+                {
+                    "type": "moveLeft",
+                    "duration": 6.0
+                }
+            ],
+            "movementRepetitions": 10
+        },
+        {
+            "type": "EnemyA",
+            "startPos": [ 300, 300 ],
+            "startVel": [ -1, 1 ],
+            "movements": [
+                {
+                    "type": "moveRight",
+                    "duration": 6.0
+                },
+                {
+                    "type": "moveLeft",
+                    "duration": 6.0
+                }
+            ],
+            "movementRepetitions": 10
+        },
+        {
+            "type": "EnemyB",
+            "startPos": [ 800, 50 ],
+            "startVel": [ -1, 1 ],
+            "movements": [
+                {
+                    "type": "moveLeft",
+                    "duration": 6.0
+                },
+                {
+                    "type": "moveRight",
+                    "duration": 6.0
+                }
+
+            ],
+            "movementRepetitions": 10
+        },
+        {
+            "type": "EnemyB",
+            "startPos": [ 700, 150 ],
+            "startVel": [ -1, 1 ],
+            "movements": [
+                {
+                    "type": "moveLeft",
+                    "duration": 6.0
+                },
+                {
+                    "type": "moveRight",
+                    "duration": 6.0
+                }
+
+            ],
+            "movementRepetitions": 10
+        },
+        {
+            "type": "EnemyB",
+            "startPos": [ 600, 250 ],
+            "startVel": [ -1, 1 ],
+            "movements": [
+                {
+                    "type": "moveLeft",
+                    "duration": 6.0
+                },
+                {
+                    "type": "moveRight",
+                    "duration": 6.0
+                }
+
+            ],
+            "movementRepetitions": 10
+        },
+        {
+            "movementRepetitions": 10,
+            "movements": [
+                {
+                    "type": "moveLeft",
+                    "duration": 6.0
+                },
+                {
+                    "type": "moveRight",
+                    "duration": 6.0
+                }
+
+            ],
+            "startPos": [ 500, 350 ],
+            "startVel": [ -1, 1 ],
+            "type": "EnemyB"
+        }
+    ]
+}

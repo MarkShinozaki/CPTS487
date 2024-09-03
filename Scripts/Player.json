@@ -1,0 +1,33 @@
+{
+  "player": {
+    "entityType": "player",
+    "textureName": "Player",
+    "color": "Blue",
+    "movementPattern": {
+      "movementPatternType": "playerInput",
+      "positions": [
+        {
+          "spawn": {
+            "x": 400,
+            "y": 550
+          },
+          "start": {
+            "x": 400,
+            "y": 350
+          }
+        }
+      ],
+      "speed": 2
+    },
+    "projectile": {
+      "projectileType": "bullet",
+      "textureName": "Bullet",
+      "color": "Blue",
+      "damage": 5,
+      "movementPattern": {
+        "movementPatternType": "linear",
+        "speed": 4
+      }
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "enemies": [
+    {
+      "enemyType": "SimpleEnemy",
+      "textureName": "EnemyA",
+      "color": "White",
+      "movementPattern": {
+        "movementPatternType": "linear",
+        "speed": 4
+      },
+      "projectile": {
+        "projectileType": "Bullet",
+        "textureName": "Bullet",
+        "color": "White",
+        "damage": 5,
+        "ricochetAmount": 1,
+        "movementPattern": {
+          "movementPatternType": "linear",
+          "speed": 4
+        }
+    },
+
+    {
+      "enemyType": "NotSimpleEnemy",
+      "textureName": "EnemyB",
+      "color": "White",
+      "movementPattern": {
+        "movementPatternType": "linear",
+        "speed": 4
+      },
+      "projectile": {
+        "projectileType": "Bullet",
+        "textureName": "Bullet",
+        "color": "White",
+        "damage": 5,
+        "ricochetAmount": 1,
+        "movementPattern": {
+          "movementPatternType": "linear",
+          "speed": 4
+        }
+      }
+    },
+    {
+      "enemyType": "MidBoss",
+      "textureName": "MidBoss",
+      "color": "White",
+      "movementPattern": {
+        "movementPatternType": "linear", 
+        "speed": 5
+      },
+      "projectile": {
+        "projectileType": "linear",
+        "textureName": "Bullet",
+        "color": "White",
+        "damage": 5,
+        "ricochetAmount": 1,
+        "movementPattern": {
+          "movementPatternType": "linear",
+          "speed": 5
+        }
+      }
+    },
+    {
+        "enemyType": "FinalBoss",
+        "textureName": "FinalBoss",
+        "color": "White",
+        "movementPattern": {
+            "movementPatternType": "bounce",
+            "speed": 10
+        },
+        "projectile": {
+            "projectileType": "linear",
+            "textureName": "Bullet",
+            "color": "White",
+            "damage": 5,
+            "ricochetAmount": 1,
+            "movementPattern": {
+                "movementPatternType": "linear",
+                "speed": 5
+            }
+        }
+    }
+  ]
+}

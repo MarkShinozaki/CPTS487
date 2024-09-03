@@ -1,0 +1,43 @@
+[
+  {
+    "EnemyID": 1,
+    "Type": "EnemyA",
+    "Health": 50,
+    "Speed": 10,
+    "MovementPattern": "zigzag",
+    "AttackPattern": "single_shot"
+  },
+  {
+    "EnemyID": 2,
+    "Type": "EnemyB",
+    "Health": 75,
+    "Speed": 10,
+    "MovementPattern": "zigzag",
+    "AttackPattern": "spread_shot"
+  },
+  {
+    "EnemyID": 3,
+    "Type": "MidBoss",
+    "Health": 500,
+    "Speed": 10,
+    "MovementPattern": "random",
+    "AttackPattern": "spiral"
+  },
+  {
+    "EnemyID": 4,
+    "Type": "FinalBoss",
+    "Health": 1000,
+    "Speed": 10,
+    "MovementPattern": "complex",
+    "AttackPattern": "all_out"
+  },
+
+  {
+    "EnemyID": 5,
+    "Type": "SupriseBoss",
+    "Health": 2000,
+    "Speed": 0.25,
+    "MovementPattern": "linear",
+    "AttackPattern": "all_out"
+  }
+]

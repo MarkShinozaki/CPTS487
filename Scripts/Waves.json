@@ -1,0 +1,230 @@
+{
+    "waves": [
+        {
+            "waveID": 1,
+            "waveDuration": 15,
+            "waveEntities": {
+                "waveEnemy": "SimpleEnemy",
+                "entityAmount": 6
+            },
+            "movementPattern": {
+                "movementPatternType": "backAndForth",
+                "path": {
+                    "start": {
+                        "x": 400,
+                        "y": 350
+                    },
+                    "end": {
+                        "x": 800,
+                        "y": 350
+                    }
+                },
+                "speed": 4
+            }
+        },
+        {
+            "waveID": 2,
+            "waveDuration": 15,
+            "waveEntities": {
+                "waveEnemy": "SimpleEnemy",
+                "entityAmount": 12
+            },
+            "movementPattern": {
+                "movementPatternType": "backAndForth",
+                "path": {
+                    "start": {
+                        "x": 400,
+                        "y": 350
+                    },
+                    "end": {
+                        "x": 800,
+                        "y": 350
+                    }
+                },
+                "speed": 4
+            }
+        },
+
+        {
+            "waveID": 3,
+            "waveDuration": 15,
+            "waveEntities": {
+                "waveEnemy": "NotSimpleEnemy",
+                "entityAmount": 6
+            },
+            "movementPattern": {
+                "movementPatternType": "backAndForth",
+                "path": {
+                    "start": {
+                        "x": 400,
+                        "y": 350
+                    },
+                    "end": {
+                        "x": 800,
+                        "y": 350
+                    }
+                },
+                "speed": 4
+            }
+        },
+        {
+            "waveID": 4,
+            "waveDuration": 15,
+            "waveEntities": {
+                "waveEnemy": "NotSimpleEnemy",
+                "entityAmount": 12
+            },
+            "movementPattern": {
+                "movementPatternType": "backAndForth",
+                "path": {
+                    "start": {
+                        "x": 400,
+                        "y": 350
+                    },
+                    "end": {
+                        "x": 800,
+                        "y": 350
+                    }
+                },
+                "speed": 4
+            }
+
+
+        },
+        {
+            "waveID": 5,
+            "waveDuration": 15,
+            "waveEntities": {
+                "waveEnemy": "MidBoss",
+                "entityAmount": 1
+            },
+            "movementPattern": {
+                "movementPatternType": "backAndForth",
+                "path": {
+                    "start": {
+                        "x": 400,
+                        "y": 350
+                    },
+                    "end": {
+                        "x": 800,
+                        "y": 350
+                    }
+                },
+                "speed": 4
+            }
+
+        },
+        {
+            "waveID": 6,
+            "waveDuration": 15,
+            "waveEntities": {
+                "waveEnemy": "SimpleEnemy",
+                "entityAmount": 12
+            },
+            "movementPattern": {
+                "movementPatternType": "backAndForth",
+                "path": {
+                    "start": {
+                        "x": 400,
+                        "y": 350
+                    },
+                    "end": {
+                        "x": 800,
+                        "y": 350
+                    }
+                },
+                "speed": 4
+            }
+
+        },
+        {
+            "waveID": 7,
+            "waveDuration": 15,
+            "waveEntities": {
+                "waveEnemy": "NotSimpleEnemy",
+                "entityAmount": 6
+            },
+            "movementPattern": {
+                "movementPatternType": "backAndForth",
+                "path": {
+                    "start": {
+                        "x": 400,
+                        "y": 350
+                    },
+                    "end": {
+                        "x": 800,
+                        "y": 350
+                    }
+                },
+                "speed": 4
+            }
+
+        },
+        {
+            "waveID": 8,
+            "waveDuration": 15,
+            "waveEntities": {
+                "waveEnemy": "NotSimpleEnemy",
+                "entityAmount": 8
+            },
+            "movementPattern": {
+                "movementPatternType": "backAndForth",
+                "path": {
+                    "start": {
+                        "x": 400,
+                        "y": 350
+                    },
+                    "end": {
+                        "x": 800,
+                        "y": 350
+                    }
+                },
+                "speed": 4
+            }
+        },
+        {
+            "waveID": 9,
+            "waveDuration": 15,
+            "waveEntities": {
+                "waveEnemy": "NotSimpleEnemy",
+                "entityAmount": 12
+            },
+            "movementPattern": {
+                "movementPatternType": "backAndForth",
+                "path": {
+                    "start": {
+                        "x": 400,
+                        "y": 350
+                    },
+                    "end": {
+                        "x": 800,
+                        "y": 350
+                    }
+                },
+                "speed": 4
+            }
+        },
+        {
+            "waveID": 10,
+            "waveDuration": 15,
+            "waveEntities": {
+                "waveEnemy": "FinalBoss",
+                "entityAmount": 1
+            },
+            "movementPattern": {
+                "movementPatternType": "backAndForth",
+                "path": {
+                    "start": {
+                        "x": 400,
+                        "y": 350
+                    },
+                    "end": {
+                        "x": 800,
+                        "y": 350
+                    }
+                },
+                "speed": 4
+            }
+        }
+    ]
+}

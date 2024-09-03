@@ -1,0 +1,333 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="EGGS.Controls.Button" Collapsed="true">
+    <Position X="10.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAwAAAAAAQAAAgAgAAAAAAAAAAIgACAAAAQACAAAAgA=</HashCode>
+      <FileName>Controls\Button.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EGGS.EnemyComponents.EnemyA" Collapsed="true">
+    <Position X="0.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAIAgEAAAAAwAAjgAAAAAAAAIAAAAAgAQAAAAAAAA=</HashCode>
+      <FileName>EnemyComponents\EnemyA.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EGGS.EnemyComponents.EnemyB" Collapsed="true">
+    <Position X="5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAoEAAAQAwAACAAAAAAAAAIAAAAAgAQAAAAAAAA=</HashCode>
+      <FileName>EnemyComponents\EnemyB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EGGS.EnemyComponents.EnemyFactory" Collapsed="true">
+    <Position X="13.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>EnemyComponents\EnemyFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EGGS.EnemyComponents.EnemyACreator" Collapsed="true">
+    <Position X="12.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>EnemyComponents\EnemyFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EGGS.EnemyComponents.EnemyBCreator" Collapsed="true">
+    <Position X="15" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>EnemyComponents\EnemyFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EGGS.EnemyComponents.MidBossCreator" Collapsed="true">
+    <Position X="17.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>EnemyComponents\EnemyFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EGGS.EnemyComponents.FinalBossCreator" Collapsed="true">
+    <Position X="10.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>EnemyComponents\EnemyFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EGGS.EnemyComponents.FinalBoss" Collapsed="true">
+    <Position X="2.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAEAAAAAwAACAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EnemyComponents\FinalBoss.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EGGS.EnemyComponents.MidBoss" Collapsed="true">
+    <Position X="7.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAEAAAAAwAACAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EnemyComponents\MidBoss.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EGGS.Factory.BulletFactory" Collapsed="true">
+    <Position X="19.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factory\BulletFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EGGS.Factory.MovementsFactory" Collapsed="true">
+    <Position X="19.75" Y="1.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Factory\MovementsFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EGGS.MovementDesign.BulletMovement" Collapsed="true">
+    <Position X="21.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAAAAQIAAAAAAAAAAAAAIRAA=</HashCode>
+      <FileName>MovementDesign\BulletMovement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EGGS.MovementDesign.EnemyMovement" Collapsed="true">
+    <Position X="23.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAQIAAAAAAAAAAAAAIRAA=</HashCode>
+      <FileName>MovementDesign\EnemyMovement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EGGS.MovementDesign.MD" Collapsed="true">
+    <Position X="1" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MovementDesign\MD.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EGGS.MovementDesign.MDL" Collapsed="true">
+    <Position X="5.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MovementDesign\MDL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EGGS.MovementDesign.MDR" Collapsed="true">
+    <Position X="10" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MovementDesign\MDR.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EGGS.MovementDesign.ML" Collapsed="true">
+    <Position X="12.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MovementDesign\ML.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EGGS.MovementDesign.Movement" Collapsed="true">
+    <Position X="8.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>MovementDesign\Movement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EGGS.MovementDesign.MR" Collapsed="true">
+    <Position X="14.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MovementDesign\MR.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EGGS.MovementDesign.MU" Collapsed="true">
+    <Position X="16.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MovementDesign\MU.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EGGS.MovementDesign.MUL" Collapsed="true">
+    <Position X="3.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MovementDesign\MUL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EGGS.MovementDesign.MUR" Collapsed="true">
+    <Position X="7.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MovementDesign\MUR.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EGGS.OnScreenUnits.BulletType.Bullet" Collapsed="true">
+    <Position X="6.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAQAAAgAAAAAAgCAABAAAAAAQAAAAAAAgAQAAAAAAAA=</HashCode>
+      <FileName>OnScreenUnits\BulletType\Bullet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EGGS.OnScreenUnits.BulletType.BulletSpread" Collapsed="true">
+    <Position X="5.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAoAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OnScreenUnits\BulletType\BulletSpread.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EGGS.OnScreenUnits.BulletType.FinalBossBullet" Collapsed="true">
+    <Position X="7.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAoAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OnScreenUnits\BulletType\FinalBossBullet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EGGS.OnScreenUnits.BulletType.MBSpread" Collapsed="true">
+    <Position X="10" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAoAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OnScreenUnits\BulletType\MBSpread.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EGGS.OnScreenUnits.BulletType.RandomBullets" Collapsed="true">
+    <Position X="12.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAoAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OnScreenUnits\BulletType\RandomBullets.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EGGS.OnScreenUnits.BulletType.Spiral" Collapsed="true">
+    <Position X="1" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAoAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OnScreenUnits\BulletType\Spiral.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EGGS.OnScreenUnits.BulletType.TopBottom" Collapsed="true">
+    <Position X="3.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAoAgAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>OnScreenUnits\BulletType\TopBottom.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EGGS.OnScreenUnits.Component" Collapsed="true">
+    <Position X="10.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OnScreenUnits\Component.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EGGS.OnScreenUnits.Enemy" Collapsed="true">
+    <Position X="3.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAEEAIAgAwQASBAAIAAAQAIAAwAAAAQAAAAAAQA=</HashCode>
+      <FileName>OnScreenUnits\Enemy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EGGS.OnScreenUnits.Entity" Collapsed="true">
+    <Position X="8.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgAAAAAAIAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>OnScreenUnits\Entity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EGGS.OnScreenUnits.Reward" Collapsed="true">
+    <Position X="14.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAgBAAgAAAAAAAAAABAAAAAAAAAQAQAAAAAA=</HashCode>
+      <FileName>OnScreenUnits\Reward.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EGGS.PlayerFolder.ReadyPlayerOne" Collapsed="true">
+    <Position X="16.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AI0AgABEAqB4Q4AACABQkACAACIAAQEAAGwAoCAAQQA=</HashCode>
+      <FileName>OnScreenUnits\ReadyPlayerOne.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EGGS.ScriptInterpreter.Wave" Collapsed="true">
+    <Position X="19.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAQAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAgA=</HashCode>
+      <FileName>ScriptInterpreter\Wave.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EGGS.ScriptInterpreter.WaveConstructor" Collapsed="true">
+    <Position X="21.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAWACAAJAAAAAQCQAACAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ScriptInterpreter\WaveConstructor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EGGS.ScriptInterpreter.waveObj" Collapsed="true">
+    <Position X="23.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>ScriptInterpreter\WaveConstructor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EGGS.ScriptInterpreter.enemyObj" Collapsed="true">
+    <Position X="25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAEAACAAAAAAAAAAAABAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>ScriptInterpreter\WaveConstructor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EGGS.ScriptInterpreter.moveObj" Collapsed="true">
+    <Position X="21.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ScriptInterpreter\WaveConstructor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EGGS.StateManager.GameState" Collapsed="true">
+    <Position X="5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAQBAMAAQQAAAgAAICQIAAIAGAAAABQCAARBAAAAACA=</HashCode>
+      <FileName>StateManager\GameState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EGGS.StateManager.LoseState" Collapsed="true">
+    <Position X="7.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAEIgAAAAAAAAAAAAIAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>StateManager\LoseState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EGGS.StateManager.MenuState" Collapsed="true">
+    <Position X="0.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAEIgAAAAAAAAAAAAIAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>StateManager\MenuState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EGGS.StateManager.State" Collapsed="true">
+    <Position X="3.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgABAAAAAABAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>StateManager\State.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EGGS.StateManager.WinState" Collapsed="true">
+    <Position X="2.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAEIgAAAAAAAAAAAAIAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>StateManager\WinState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EGGS.PlayGame" Collapsed="true">
+    <Position X="23.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAEEAAAAAABwAAAAAAAAAAAAAAAAACAAAAAAACABQ=</HashCode>
+      <FileName>PlayGame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EGGS.Units" Collapsed="true">
+    <Position X="25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgAAAAAAIAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Units.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

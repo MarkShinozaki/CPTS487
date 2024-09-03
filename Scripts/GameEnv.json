@@ -1,0 +1,42 @@
+[
+  {
+    "GameSetups": [
+      {
+        "ID": "default",
+        "BackgroundColor": "#00FF00",
+        "SoundSettings": {
+          "EnableSFX": true,
+          "EnableMusic": true,
+          "MusicVolume": 80,
+          "SFXVolume": 70
+        },
+        "MusicTracks": [
+          {
+            "Name": "MainTheme",
+            "Path": "Music/MainTheme.mp3"
+          },
+          {
+            "Name": "BattleTheme",
+            "Path": "Music/BattleTheme.mp3"
+          }
+        ]
+      },
+      {
+        "ID": "nightMode",
+        "BackgroundColor": "#000033",
+        "SoundSettings": {
+          "EnableSFX": true,
+          "EnableMusic": true,
+          "MusicVolume": 60,
+          "SFXVolume": 50
+        },
+        "MusicTracks": [
+          {
+            "Name": "NightTheme",
+            "Path": "Music/NightTheme.mp3"
+          }
+        ]
+      }
+    ]
+  }
+]

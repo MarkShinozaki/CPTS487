@@ -1,0 +1,9 @@
+﻿[
+  {
+    "Spread": 1.0,
+    "Damage": 100,
+    "FireRate": 2.0,
+    "ProjectileSize": 5.0,
+    "ProjectileSpeed": 10.0
+  }
+]
