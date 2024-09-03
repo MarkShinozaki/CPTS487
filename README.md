@@ -1,5 +1,3 @@
-# CPTS487
-
 
 # Additional Resources
 - **MonoGame Documentation**: [MonoGame Docs](http://www.monogame.net/documentation/?page=main)
