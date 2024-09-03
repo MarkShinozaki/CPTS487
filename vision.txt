@@ -1,0 +1,96 @@
+Vision & Theme
+
+- By the end of the semester we intend to have created a basic and easily expandable bullet hell 
+experience which the user can easily modify by manipulating various json files which control the game entities values.
+
+- Our theme will be “Dogs vs Cats” and we will carry that into our later art and sound design. 
+
+- We hope to add elements such as player power-ups which will increase or decrease certain values 
+during downtime as it would allow for interesting and fun variations in the actual game, 
+making it replayable as every run can have different outcomes, and different approaches.
+
+- We want to add 2 enemy types (grunts) which have different attack and movement patterns, 
+as well as 2 bosses, one mid, and one end boss, which have more interesting and hard to dodge attacks than the grunts. 
+During the boss phase the grunts will continue spawning  as helpers to the boss to attempt 
+to make it harder for the player to not be hit.
+
+-----------------------------------------------------------------------------
+Gameplay Loop & Values
+Phase 1: (Regular play with grunts)
+Duration: 30 sec
+What Happens:
+	Slower grunts attack. Drop items needed to level up stats of the player on kill.
+
+Phase 2: (mid boss attack)
+	Duration: 30sec
+What Happens: The boss spawns, wipes all grunts and items that were not picked up.
+Slower grunts despawn, and spawn back during the fight
+Mid boss attacks.
+
+Phase 3: (More Grunts)
+	Duration: 30 sec
+What Happens: Same as Phase 1, stronger upgrades drop.
+	Both grunt types attack.
+
+Phase 4: (Boss)
+	Duration: 90 sec
+What Happens: The boss spawns, wipes all grunts and items that were not picked up.
+	Grunts despawn.
+	Final boss attacks with 2 stages.
+	Stage 1 is 45 secs.
+	Stage 2 is 45 secs.
+
+
+-----------------------------------------------------------------------------
+4 types of enemies:
+Grunt A (slower grunt)
+HP: 100
+Speed: 60 (substantially slower than the player)
+Attack style: Slower, bigger bullets that aim towards the player’s location when shot.
+
+Grunt B (faster grunt)
+HP: 50
+Speed: 130 (a bit faster than the player)
+Attack style: Smaller, faster bullets aimed downwards from the enemy’s position. (space invaders style)
+
+Mid boss
+HP: 1500 (about enough damage necessary to clear all the grunts in a 30 sec phase)
+Speed: 150 (harder to shoot 
+Attack style:
+Basically a slower version of stage 1 final boss
+Radius around the boss that damages the player if they touch it
+Rings of bullets shot out from boss (pretty slow projectile speed)
+
+Final boss
+HP: 6000 (should be able to deal this with medium difficulty with upgrades)
+Stage 1:
+Speed: 180 (a lot faster than the player)
+Attack Style: 
+Radius around the boss that damages the player if they touch it
+Ring of bullets shot out from boss (slower projectile speed, faster than that of the mid boss)
+Shotgun spread aimed towards the player’s location (faster projectile speed)
+Stage 2:
+Speed: 200
+Attack Style: A lot of variation of projectiles with linear and diagonal patterns being created with the movement of the boss.	
+Radius around the boss that damages the player if they touch it
+Ring of bullets shot out from boss, groups of 2 rings before shooting it outwards with a delay in between.
+Fast 360 spraying of faster bullets (same as the shotgun bullets from phase 1) 
+
+-----------------------------------------------------------------------------
+Player:
+Lives: 5
+Default damage: 10
+Fire rate: 3 times per second; 180 rpm base
+Projectile size: small
+Projectile speed: fast 
+SlowdownMultiplier:2
+SprintMultiplier:1.35
+Speed: 100
+
+Other information:
+Default Controls: 
+Shift: Slow down
+Ctrl: Speed up
+WASD: Directional Movement
+Space: start shooting
+
