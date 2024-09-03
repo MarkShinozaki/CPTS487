@@ -65,25 +65,61 @@ This assignment revolves around designing a simple object-oriented program where
 
 ---
 
-#### [Assignment 2](https://github.com/MarkShinozaki/CPTS487-SoftwareDesign-Architecture/tree/Assignments/Assignment%202)
+## [Assignment 2](https://github.com/MarkShinozaki/CPTS487-SoftwareDesign-Architecture/tree/Assignments/Assignment%202)
+
+This assignment builds upon the concepts introduced in Assignment 1 and focuses on the Factory Method Pattern. The main goal is to design a system that uses the Factory Method Pattern to create and manage shapes (circles and rectangles) and to explore the limitations of the Factory Method, with considerations for when the Abstract Factory Pattern might be more appropriate.
+
+### Detailed Breakdown of Each Question:
+
+1. **Class Diagram using Factory Method Pattern (10 points)**:
+   
+    - **Task**: You are required to design a class diagram that includes `Shape`, `Circle`, `Rectangle`, `Canvas`, and other necessary classes following the Factory Method Pattern.
+      
+    - **Objective**: The Factory Method Pattern involves creating a factory class for each type of product (in this case, a `CircleFactory` and `RectangleFactory`) that will handle the creation of Circle and Rectangle objects. The Canvas class will utilize these factories to draw shapes.
+      
+    - **Key Points**: Ensure that each shape has its own factory class, and the diagram should clearly show the relationships between these classes.
+
+3. **Role of the Canvas Class (5 points)**:
+
+    - **Task**: Determine whether the Canvas class is part of the Factory Method Pattern or something external to it, and justify your reasoning.
+
+    - **Objective**: This question tests your understanding of the Factory Method Pattern's structure. Generally, the Canvas class would be external to the pattern, as it uses the factories to create shapes rather than being a factory itself.
+
+3. **Sketch Code Demonstrating Drawing a Circle (10 points)**:
+
+    - **Task**: Provide a basic code sketch that demonstrates how to draw a circle on a canvas using the classes defined in the first question. Comments can be used to describe method functionality rather than writing full code.
+
+    - **Objective**: The code should show how the Canvas interacts with the CircleFactory to create and draw a Circle object, demonstrating the practical application of the Factory Method Pattern.
+
+4. **Scenario Where Factory Method Might be Insufficient (5 points)**:
+
+    - **Task**: Describe a situation where the Factory Method Pattern may not be sufficient and where the Abstract Factory Pattern could be more appropriate, such as when introducing new elements like styles for shapes.
+
+    - **Objective**: This question encourages you to think about the limitations of the Factory Method and understand when a more complex pattern, like Abstract Factory, might be needed—particularly in situations where multiple related objects need to be created.
+
+5. **Application of Factory/Abstract Factory in a Course Project (10 points, not for submission)**:
+
+    - **Task**: Consider how you would apply either the Factory Method or Abstract Factory Pattern in the course project. This question is meant to stimulate discussion within your team about the pros and cons of different design patterns.
+
+    - **Objective**: This open-ended question encourages critical thinking about the application of design patterns in real-world projects, helping you start planning for the course project.
+
+
+### Summary of the Solution:
+- The provided solution outlines how to approach each of these questions, with particular emphasis on correctly implementing the Factory Method Pattern through class diagrams and sketch code. The solution also explores scenarios where the Abstract Factory Pattern would be more effective, particularly in handling more complex object creation scenarios.
+
+
+---
+## [Assignment 3](https://github.com/MarkShinozaki/CPTS487-SoftwareDesign-Architecture/tree/Assignments/Assignment%203)
 
 
 
+---
+## [Assignment 4](https://github.com/MarkShinozaki/CPTS487-SoftwareDesign-Architecture/tree/Assignments/Assignment%204)
+
+---
+## [Assignment 5](https://github.com/MarkShinozaki/CPTS487-SoftwareDesign-Architecture/tree/Assignments/Assignment%205)
 
 
 
-
-#### [Assignment 3](https://github.com/MarkShinozaki/CPTS487-SoftwareDesign-Architecture/tree/Assignments/Assignment%203)
-
-
-
-
-#### [Assignment 4](https://github.com/MarkShinozaki/CPTS487-SoftwareDesign-Architecture/tree/Assignments/Assignment%204)
-
-
-#### [Assignment 5](https://github.com/MarkShinozaki/CPTS487-SoftwareDesign-Architecture/tree/Assignments/Assignment%205)
-
-
-
-
-#### [Assignment 6](https://github.com/MarkShinozaki/CPTS487-SoftwareDesign-Architecture/tree/Assignments/Assignment%206)
+---
+## [Assignment 6](https://github.com/MarkShinozaki/CPTS487-SoftwareDesign-Architecture/tree/Assignments/Assignment%206)
