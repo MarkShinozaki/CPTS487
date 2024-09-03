@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "xHPslKIfYelorreh+d3SNpO4m1smCdZjsL+OJ/U7LLUpNfJ207t7Ym9BxHoraAQJM7hnQzxz2pis64Iz50nEcw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mark-\\OneDrive\\LapTop - Desktop\\PlantsVSzombies\\PlantsVSzombies.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mark-\\.nuget\\packages\\stylecop.analyzers\\1.1.118\\stylecop.analyzers.1.1.118.nupkg.sha512"
+  ],
+  "logs": []
+}

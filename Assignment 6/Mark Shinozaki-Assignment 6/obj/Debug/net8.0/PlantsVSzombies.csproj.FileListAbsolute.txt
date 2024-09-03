@@ -1,0 +1,14 @@
+C:\Users\mark-\OneDrive\LapTop - Desktop\PlantsVSzombies\obj\Debug\net8.0\PlantsVSzombies.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mark-\OneDrive\LapTop - Desktop\PlantsVSzombies\obj\Debug\net8.0\PlantsVSzombies.AssemblyInfoInputs.cache
+C:\Users\mark-\OneDrive\LapTop - Desktop\PlantsVSzombies\obj\Debug\net8.0\PlantsVSzombies.AssemblyInfo.cs
+C:\Users\mark-\OneDrive\LapTop - Desktop\PlantsVSzombies\obj\Debug\net8.0\PlantsVSzombies.csproj.CoreCompileInputs.cache
+C:\Users\mark-\OneDrive\LapTop - Desktop\PlantsVSzombies\bin\Debug\net8.0\PlantsVSzombies.exe
+C:\Users\mark-\OneDrive\LapTop - Desktop\PlantsVSzombies\bin\Debug\net8.0\PlantsVSzombies.deps.json
+C:\Users\mark-\OneDrive\LapTop - Desktop\PlantsVSzombies\bin\Debug\net8.0\PlantsVSzombies.runtimeconfig.json
+C:\Users\mark-\OneDrive\LapTop - Desktop\PlantsVSzombies\bin\Debug\net8.0\PlantsVSzombies.dll
+C:\Users\mark-\OneDrive\LapTop - Desktop\PlantsVSzombies\bin\Debug\net8.0\PlantsVSzombies.pdb
+C:\Users\mark-\OneDrive\LapTop - Desktop\PlantsVSzombies\obj\Debug\net8.0\PlantsVSzombies.dll
+C:\Users\mark-\OneDrive\LapTop - Desktop\PlantsVSzombies\obj\Debug\net8.0\refint\PlantsVSzombies.dll
+C:\Users\mark-\OneDrive\LapTop - Desktop\PlantsVSzombies\obj\Debug\net8.0\PlantsVSzombies.pdb
+C:\Users\mark-\OneDrive\LapTop - Desktop\PlantsVSzombies\obj\Debug\net8.0\PlantsVSzombies.genruntimeconfig.cache
+C:\Users\mark-\OneDrive\LapTop - Desktop\PlantsVSzombies\obj\Debug\net8.0\ref\PlantsVSzombies.dll
