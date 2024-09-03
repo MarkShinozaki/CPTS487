@@ -189,7 +189,7 @@
 - This lesson covers the Adapter and Strategy design patterns. The Adapter pattern allows incompatible interfaces to work together, while the Strategy pattern defines a family of algorithms, encapsulates each one, and makes them interchangeable, enabling the algorithm to vary independently from clients that use it.
 
 ---
-### [Lesson 26: Design Patterns 10 - State & Flyweight]()
+### [Lesson 26: Design Patterns 10 - State & Flyweight](https://github.com/MarkShinozaki/CPTS487-SoftwareDesign-Architecture/blob/Lectures-Slides/CptS487_Lesson26-DesignPatterns10_state%26flyweight.pdf)
 - This lesson discusses the State and Flyweight design patterns. The State pattern allows an object to alter its behavior when its internal state changes, while the Flyweight pattern uses sharing to support a large number of fine-grained objects efficiently, making it suitable for systems with many similar objects.
 
 - These lessons cover crucial topics in software design, focusing on the practical application of design patterns and system design principles to create efficient, scalable, and maintainable software systems.
