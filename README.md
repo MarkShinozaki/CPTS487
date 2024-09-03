@@ -1,6 +1,6 @@
 # CPTS 487 - Software Design & Architecture
 
-# Instructor and TA Information
+# Instructor 
 - **Instructor**: Bolong Zeng
   - **Email**: bzeng@wsu.edu
 
@@ -14,13 +14,6 @@
 - **[MARTIN]** R. C. Martin. *Agile Software Development: Principles, Patterns, and Practices*, 1st ed., Pearson, 2002.
 - **[CLEMENTS]** P. Clements et al., *Documenting Software Architectures: Views and Beyond*, 2nd ed., Pearson Education, 2010.
 
-# Additional Resources
-- **MonoGame Documentation**: [MonoGame Docs](http://www.monogame.net/documentation/?page=main)
-- **LibGDX Documentation**: [LibGDX Docs](https://libgdx.badlogicgames.com/documentation/)
-- **GameFromScratch Tutorials**:  
-  - [MonoGame Tutorials](https://www.gamefromscratch.com/page/MonoGame-Tutorial-Series.aspx)
-  - [LibGDX Tutorials](https://www.gamefromscratch.com/page/LibGDX-Tutorial-series.aspx)
-- **Design Patterns Reference**: [OODesign](https://www.oodesign.com/)
 
 # Course Overview
 **CptS 487 - Software Design & Architecture** focuses on fundamental software design principles and methodologies. Students will learn how to build and document both the static and dynamic aspects of software design, apply common solutions to recurring design problems, and recognize poor design solutions. The course also covers evaluating software quality, different architectural styles, and good and poor architectural practices.
